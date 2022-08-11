@@ -1,0 +1,1 @@
+This is a simple online restaurant ordering system landing page.
