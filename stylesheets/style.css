@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar{
+    height: 70px;
+    box-shadow: 0px 0px 15px rgb(211, 211, 211);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.logo{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.navitems{
+    display: flex;
+    column-gap: 20px;
+}
+
+.navitems a{
+    text-decoration: none;
+    color: black;
+}
+
+.cart{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.cart a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    background-color: black;
+}
+
+.hero{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.hero--left{
+    width: 50%;
+}
+
+.hero--left h1{
+    font-size: 50px;
+}
+
+.hero-btns{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    width: fit-content;
+}
+
+.hero-btns a:nth-child(1){
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    background-color: black;
+}
+
+.hero-btns a:nth-child(2){
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    border: 1px solid black;
+    color: black;
+}
+
+.hero--right{
+    width: 50%;
+    line-height: 30px;
+}
+
+.schedule{
+    height: 400px;
+    background-image: url(https://images.unsplash.com/photo-1606787366850-de6330128bfc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.schdule--container{
+    width: 700px;
+    height: 300px;
+    background-color: whitesmoke;
+}
